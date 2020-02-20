@@ -4,10 +4,10 @@ int mostrarCarrito();
 int clearScreen();
 int agregarElementoAlCarrito();
 int eliminarElementoDelCarrito();
-char *articles[TAM]={"UNO", "DOS", "TRES", "CUATRO", "CINCO", '\0'};
-int stock[TAM]={10, 10, 10, 10, 10, '\0'};
-int cart[TAM]={0, 0, 0, 0, 0, '\0'};
-float price[TAM]={5.5, 10.5, 20.0, 90.5, 100.0, '\0'};
+char *articles[TAM]={"UNO", "DOS", "TRES", "CUATRO", "CINCO"};
+int stock[TAM]={10, 10, 10, 10, 10};
+int cart[TAM]={0, 0, 0, 0, 0};
+float price[TAM]={5.5, 10.5, 20.0, 90.5, 100.0};
 int ver = 0;
 
 int menu(){
